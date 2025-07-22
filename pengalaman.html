@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Rizkii</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f0f2f5;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      header {
+        background: linear-gradient(120deg, #2980b9, #6dd5fa);
+        color: white;
+        padding: 3rem 1rem;
+        text-align: center;
+      }
+
+      .profile-img {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin-bottom: 1rem;
+      }
+
+      h1 {
+        margin-bottom: 0.3rem;
+        font-size: 2rem;
+      }
+
+      p.subtitle {
+        font-size: 1.1rem;
+        opacity: 0.9;
+      }
+
+      main {
+        max-width: 900px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+
+      section {
+        background: white;
+        margin-bottom: 2rem;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      section h2 {
+        margin-bottom: 1rem;
+        color: #2980b9;
+        font-size: 1.5rem;
+      }
+
+      ul {
+        list-style-type: square;
+        padding-left: 1.5rem;
+      }
+
+      li {
+        margin-bottom: 0.6rem;
+      }
+
+      a {
+        color: #2980b9;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+
+      .gallery img {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      }
+
+      footer {
+        text-align: center;
+        padding: 1.5rem;
+        background-color: #ddd;
+        color: #444;
+        margin-top: 2rem;
+      }
+
+      @media (max-width: 600px) {
+        .profile-img {
+          width: 100px;
+          height: 100px;
+        }
+
+        h1 {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="img/icon.png" alt="Foto Profil" class="profile-img" />
+      <h1>Rizkii</h1>
+      <p class="subtitle">Frontend Development | Backend Development</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>🧠 Kemampuan</h2>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>PHP & Database Management (MySQL)</li>
+          <li>Java</li>
+          <li>Penggunaan XAMPP/Localhost Server</li>
+          <li>Keterampilan PBO di Netbeans</li>
+          <li>Responsive Web Design</li>
+        </ul>
+      </section>
+      Java Database Management (MySQL) Keterampilan PBO di Netbeans Penggunaan
+      XAMPP / localhost Server Responsive Web Design
+      <section>
+        <h2>📁 Pengalaman</h2>
+        <ul>
+          <li>
+            <strong>Magang di PT.Inovindo digital media</strong> (2025) -
+            Membuat web portofolio -
+            <a href="https://github.com/kiicode3" target="_blank"
+              >Lihat Projek
+            </a>
+          </li>
+          <li>
+            <strong
+              >Membuat landing page dan aplikasi kasir dengan java tugas dari
+              Sekolah</strong
+            >
+            (2025) -
+            <a href="https://fixel-rez.netlify.app/" target="_blank">page 1</a>
+            -
+            <a href="https://kii-omnifood.netlify.app/" target="_blank"
+              >page 2</a
+            >
+            -
+            <a href="https://bit.ly/45bm6aB" target="_blank">Aplikasi kasir</a>
+          </li>
+          <li>
+            <strong>Membuat web Pribadi</strong> (2025) -
+            <a href="https://kii-book.netlify.app/" target="_blank"
+              >Toko buku</a
+            >
+          </li>
+        </ul>
+
+        <div class="gallery">
+          <img src="/img/b1.jpg" alt="Screenshot Proyek 1" />
+          <img src="/img/b2.jpg" alt="Screenshot Proyek 2" />
+          <img src="/img/b3.jpg" alt="Screenshot Proyek 3" />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Rizkii. Semua hak dilindungi.</p>
+    </footer>
+  </body>
+</html>
